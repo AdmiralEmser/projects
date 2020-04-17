@@ -23,6 +23,13 @@ You are allowed to edit the files in the way you want, but mind to mention the s
 
 
 
+# Folder /work-in-progress:
+
+These projects are still under development. Therefore you are not allowed to edit, share or publish them in any kind. If you want to take part in developing, please contact AdmiralEmser.
+
+
+
+
 # Folder /practicing:
 
 Under private circumstances:
