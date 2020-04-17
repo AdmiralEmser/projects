@@ -16,7 +16,7 @@ Nobody is allowed to edit, share and especially publish AdmiralEmser's work with
 
 
 
-# Folder /open-source:
+# Folder /open-source-releases:
 
 You are allowed to edit the files in the way you want, but mind to mention the source including AdmiralEmser's profile link and the directlink to the base files. You also have to inform AdmiralEmser about using his work if you want to share it with others or publish it.
 
