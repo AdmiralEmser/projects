@@ -42,3 +42,16 @@ E:\Dateien\Dokumente\Github\CookieRepository\Developing\Sudoku\Sudoku grafisch v
 E:\Dateien\Dokumente\Github\CookieRepository\Developing\Sudoku\Sudoku grafisch v4\obj\Debug\Sudoku.application
 E:\Dateien\Dokumente\Github\CookieRepository\Developing\Sudoku\Sudoku grafisch v4\obj\Debug\Sudoku.exe
 E:\Dateien\Dokumente\Github\CookieRepository\Developing\Sudoku\Sudoku grafisch v4\obj\Debug\Sudoku.pdb
+E:\Dateien\Dokumente\Github\projects\work-in-progress\Sudoku graphical v0.2\bin\Debug\Sudoku.exe.config
+E:\Dateien\Dokumente\Github\projects\work-in-progress\Sudoku graphical v0.2\bin\Debug\Sudoku.exe.manifest
+E:\Dateien\Dokumente\Github\projects\work-in-progress\Sudoku graphical v0.2\bin\Debug\Sudoku.application
+E:\Dateien\Dokumente\Github\projects\work-in-progress\Sudoku graphical v0.2\bin\Debug\Sudoku.exe
+E:\Dateien\Dokumente\Github\projects\work-in-progress\Sudoku graphical v0.2\bin\Debug\Sudoku.pdb
+E:\Dateien\Dokumente\Github\projects\work-in-progress\Sudoku graphical v0.2\obj\Debug\Sudoku.Form1.resources
+E:\Dateien\Dokumente\Github\projects\work-in-progress\Sudoku graphical v0.2\obj\Debug\Sudoku.Properties.Resources.resources
+E:\Dateien\Dokumente\Github\projects\work-in-progress\Sudoku graphical v0.2\obj\Debug\Sudoku.csproj.GenerateResource.cache
+E:\Dateien\Dokumente\Github\projects\work-in-progress\Sudoku graphical v0.2\obj\Debug\Sudoku.TrustInfo.xml
+E:\Dateien\Dokumente\Github\projects\work-in-progress\Sudoku graphical v0.2\obj\Debug\Sudoku.exe.manifest
+E:\Dateien\Dokumente\Github\projects\work-in-progress\Sudoku graphical v0.2\obj\Debug\Sudoku.application
+E:\Dateien\Dokumente\Github\projects\work-in-progress\Sudoku graphical v0.2\obj\Debug\Sudoku.exe
+E:\Dateien\Dokumente\Github\projects\work-in-progress\Sudoku graphical v0.2\obj\Debug\Sudoku.pdb
