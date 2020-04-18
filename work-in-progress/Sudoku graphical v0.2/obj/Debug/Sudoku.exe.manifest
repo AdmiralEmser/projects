@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Sudoku.exe" size="2217472">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Sudoku.exe" size="2217984">
       <assemblyIdentity name="Sudoku" version="0.2.1.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Fqvyqf5t/vC6Cb9iCBKi8sry2i5EeYDmuMyGuWKPiY0=</dsig:DigestValue>
+        <dsig:DigestValue>RFWQs9qmeByQoyRTzBsrTZ5VcLWwjPouYO+LTmfhozw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

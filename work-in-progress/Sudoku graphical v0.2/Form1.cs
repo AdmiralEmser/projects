@@ -1641,6 +1641,7 @@ namespace Sudoku
             Ausgabe();
             ResetAllColors();
         }
+
         private void Ausgabe()
         {
             int i3 = 0;
@@ -1687,91 +1688,225 @@ namespace Sudoku
                 }
             }
 
-            for (int a = 99; a > 10; a--)
+
+            Feld[9, 9]++;
+
+            while (1 == 1)
             {
-                int b = a / 10;
-                int c = a % 10;
-
-                if (c != 0)
+                if (Feld[9, 9] == 10)
                 {
-                    int x = b;
-                    int y = c;
+                    for (int i1 = 9; i1 > 0; i1--)
+                    {
+                        for (int i2 = 9; i2 > 0; i2--)
+                        {
+                            if (Feld[i1, i2] == 10)
+                            {
+                                if (i2 == 1)
+                                {
+                                    Feld[i1, i2] = 1;
+                                    Feld[i1 - 1, 9]++;
+                                }
+                                else
+                                {
+                                    Feld[i1, i2] = 1;
+                                    Feld[i1, i2 - 1]++;
+                                }
+                            }
+                        }
+                    }
+                }
+                Feld[9, 9]++;
 
-                    //long zahl;
-                    //bool reset = false;
 
-                    int o = 0;
-                    int p = 0;
-
-                    Test(x, y, b, c, p, o);
-
-
-
-
-                    //for (; x < 10; x++)
-                    //{
-                    //    for (; y < 10; y++)
-                    //    {
-                    //        Ausgabe(); 
-                    //        //string Test = Feld[x,y].ToString();
-                    //        //zahl = Feld[x, y] + 1;
-                    //        //if (zahl == 10)
-                    //        //{
-                    //        //    zahl = 1;
-                    //        //    reset = true;
-                    //        //}
-
-                    //        if (!BlockierteButtons(x.ToString() + y.ToString()))
-                    //        {   
-                    //            x = x;
-                    //            y = y;
-
-                    //            Feld[x, y] = Feld[x, y] + 1;
-
-                    //            if (Feld[x, y] == 10)
-                    //            {
-                    //                Feld[x, y] = 1;
-                    //                reset = true;
-                    //            }
-
-                    //            //if (zahl == 9)
-                    //            //{
-                    //            //    zahl = 1;
-                    //            //    reset = true;
-                    //            //}
-
-                    //            Ausgabe();
-                    //            long yCheck = 0;
-                    //            long xCheck = 0;
-                    //            long BereichCheck = 0;
-
-                    //            if ((CheckYAchse(yCheck) == 0) && (CheckXAchse(xCheck) == 0) && (CheckBereich(BereichCheck) == 0))
-                    //            {
-                    //                buttonCheck.BackColor = Color.Blue;
-                    //                break;
-                    //            }
-
-                    //        }
-                    //    }
-
-                    //    if (reset)
-                    //    {
-                    //        //x -= 1;
-                    //        reset = false;
-                    //    }
-                    //}
-
-                    //long yCheck = 0;
-                    //long xCheck = 0;
-                    //long BereichCheck = 0;
-
-                    //if ((CheckYAchse(yCheck) == 0) && (CheckXAchse(xCheck) == 0) && (CheckBereich(BereichCheck) == 0))
-                    //{
-                    //    break;
-                    //}
+                long yCheck = 0;
+                long xCheck = 0;
+                long BereichCheck = 0;
+                if ((CheckYAchse(yCheck) == 0) && (CheckXAchse(xCheck) == 0) && (CheckBereich(BereichCheck) == 0))
+                {
+                    break;
                 }
 
+
+                bool end = true;
+                for (int i1 = 1; i1 < 10; i1++)
+                {
+                    for (int i2 = 1; i2 < 10; i2++)
+                    {
+                        if (Feld[i1, i2] != 9)
+                        {
+                            end = false;
+                        }
+                    }
+                }
+                if (end)
+                {
+                    break;
+                }
             }
+
+
+
+
+
+
+
+
+
+
+
+            //for (int a = 99; a > 10; a--)
+            //{
+            //    int b = a / 10;
+            //    int c = a % 10;
+
+            //    if (c != 0)
+            //    {
+            //        int y = 9;
+
+            //        for (int x = 9; x >= b && y >= c;)
+            //        {
+            //            Feld[x, y]++;
+
+
+            //            if (Feld[x, y] == 10)
+            //            {
+            //                Feld[x, y] = 1;
+
+            //                if (y == 1)
+            //                {
+            //                    Feld[x - 1, 9]++;
+            //                }
+            //                else
+            //                {
+            //                    Feld[x, y - 1]++;
+            //                }
+            //            }
+
+            //            if (Feld[x, y] == 11)
+            //            {
+            //                Feld[x, y] = 2;
+
+            //                if (y == 1)
+            //                {
+            //                    Feld[x - 1, 9]++;
+            //                }
+            //                else
+            //                {
+            //                    Feld[x, y - 1]++;
+            //                }
+            //            }
+
+            //            if (y == 1)
+            //            {
+            //                y = 10;
+            //                x--;
+            //            }
+
+            //            y--;
+            //        }
+            //    }
+            //}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            //for (int a = 99; a > 10; a--)
+            //{
+            //    int b = a / 10;
+            //    int c = a % 10;
+
+            //    if (c != 0)
+            //    {
+            //        int x = b;
+            //        int y = c;
+
+            //        //long zahl;
+            //        //bool reset = false;
+
+            //        int o = 0;
+            //        int p = 0;
+
+            //        Test(x, y, b, c, p, o);
+
+
+
+
+            //for (; x < 10; x++)
+            //{
+            //    for (; y < 10; y++)
+            //    {
+            //        Ausgabe(); 
+            //        //string Test = Feld[x,y].ToString();
+            //        //zahl = Feld[x, y] + 1;
+            //        //if (zahl == 10)
+            //        //{
+            //        //    zahl = 1;
+            //        //    reset = true;
+            //        //}
+
+            //        if (!BlockierteButtons(x.ToString() + y.ToString()))
+            //        {   
+            //            x = x;
+            //            y = y;
+
+            //            Feld[x, y] = Feld[x, y] + 1;
+
+            //            if (Feld[x, y] == 10)
+            //            {
+            //                Feld[x, y] = 1;
+            //                reset = true;
+            //            }
+
+            //            //if (zahl == 9)
+            //            //{
+            //            //    zahl = 1;
+            //            //    reset = true;
+            //            //}
+
+            //            Ausgabe();
+            //            long yCheck = 0;
+            //            long xCheck = 0;
+            //            long BereichCheck = 0;
+
+            //            if ((CheckYAchse(yCheck) == 0) && (CheckXAchse(xCheck) == 0) && (CheckBereich(BereichCheck) == 0))
+            //            {
+            //                buttonCheck.BackColor = Color.Blue;
+            //                break;
+            //            }
+
+            //        }
+            //    }
+
+            //    if (reset)
+            //    {
+            //        //x -= 1;
+            //        reset = false;
+            //    }
+            //}
+
+            //long yCheck = 0;
+            //long xCheck = 0;
+            //long BereichCheck = 0;
+
+            //if ((CheckYAchse(yCheck) == 0) && (CheckXAchse(xCheck) == 0) && (CheckBereich(BereichCheck) == 0))
+            //{
+            //    break;
+            //}
+            //    }
+
+            //}
 
             Ausgabe();
         }

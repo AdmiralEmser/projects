@@ -55,3 +55,4 @@ E:\Dateien\Dokumente\Github\projects\work-in-progress\Sudoku graphical v0.2\obj\
 E:\Dateien\Dokumente\Github\projects\work-in-progress\Sudoku graphical v0.2\obj\Debug\Sudoku.application
 E:\Dateien\Dokumente\Github\projects\work-in-progress\Sudoku graphical v0.2\obj\Debug\Sudoku.exe
 E:\Dateien\Dokumente\Github\projects\work-in-progress\Sudoku graphical v0.2\obj\Debug\Sudoku.pdb
+E:\Dateien\Dokumente\Github\projects\work-in-progress\Sudoku graphical v0.2\obj\Debug\Sudoku.csprojAssemblyReference.cache
