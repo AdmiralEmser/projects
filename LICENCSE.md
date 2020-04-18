@@ -1,6 +1,6 @@
 © by AdmiralEmser 2020
 
-Plase mind that there could be other licenses for every project. First check the project's files and paths therefore.
+Plase mind that there could be other licenses for every single project. First check the project's files and paths therefore.
 
 
 
