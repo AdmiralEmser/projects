@@ -1,1 +1,4 @@
+# VS Community project files
 *.sln
+out/
+.vs/
