@@ -16,7 +16,10 @@ Nobody is allowed to edit, share and especially publish AdmiralEmser's work with
 
 ### Folder /open-source-releases:
 
-You are allowed to edit the files in the way you want, but mind to mention the source including AdmiralEmser's profile link and the directlink to the base files. You also have to inform AdmiralEmser about using his work if you want to share it with others or publish it.
+You are allowed to edit the files in the way you want.
+In case of publishing, mind to add the following information: "© by AdmiralEmser 2020. https://github.com/AdmiralEmser // <LINK TO PROJECT'S FOLDER/REPOSITORY>"
+You also have to inform AdmiralEmser about using his work if you want to share it with others or publish it and you have to use this license for your project.
+Comercial use is prohibitted.
 
 
 ### Folder /work-in-progress:
@@ -27,7 +30,7 @@ These projects are still under development. Therefore you are not allowed to edi
 ### Folder /practicing:
 
 Under private circumstances:
-Everybody is allowed to download and use the files written by AdmiralEmesr, but not allowed to edit the files, code, etc. without his personal and written agreement.
+Everybody is allowed to download and use the files written by AdmiralEmesr, but not allowed to edit the files, code, share, etc. without his personal and written agreement.
 
 Under other circumstances:
 Nobody is allowed to edit, share and especially publish AdmiralEmser's work without his personal and written agreement, even if it has been edited.
