@@ -1,0 +1,2 @@
+E:\Dateien\Dokumente\Github\CookieRepository\Developing\Primzahlen bis x addiert\C++\x64\Debug\C++ Testing.exe
+E:\Dateien\Dokumente\Github\CookieRepository\Developing\Primzahlen bis x addiert\C++\x64\Debug\C++ Testing.pdb

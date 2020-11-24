@@ -1,0 +1,7 @@
+[
+{
+  "directory": "E:/Dateien/Dokumente/Github/CookieRepository/Developing/Primzahlen bis x addiert/C++/build",
+  "command": "C:\\PROGRA~1\\VISUAL~1\\VC\\Tools\\Llvm\\bin\\clang-cl.exe  /nologo -TP   /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1   /FoCMakeFiles\\Primes.dir\\C++Testing.cpp.obj /FdTARGET_COMPILE_PDB -c \"E:\\Dateien\\Dokumente\\Github\\CookieRepository\\Developing\\Primzahlen bis x addiert\\C++\\C++Testing.cpp\"",
+  "file": "E:/Dateien/Dokumente/Github/CookieRepository/Developing/Primzahlen bis x addiert/C++/C++Testing.cpp"
+}
+]

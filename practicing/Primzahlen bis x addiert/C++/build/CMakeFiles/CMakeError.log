@@ -1,0 +1,13 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: E:/Dateien/Dokumente/Github/CookieRepository/Developing/Primzahlen bis x addiert/C++/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/PROGRA~1/VISUAL~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe cmTC_9c5dc && [1/2] Building C object CMakeFiles\cmTC_9c5dc.dir\testCCompiler.c.obj
+[2/2] Linking C executable cmTC_9c5dc.exe
+FAILED: cmTC_9c5dc.exe 
+cmd.exe /C "cd . && "C:\Program Files\Visual Studio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_9c5dc.dir --rc=rc --mt=CMAKE_MT-NOTFOUND --manifests  -- "E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe" /nologo CMakeFiles\cmTC_9c5dc.dir\testCCompiler.c.obj  /out:cmTC_9c5dc.exe /implib:cmTC_9c5dc.lib /pdb:cmTC_9c5dc.pdb /version:0.0  /machine:X86  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+RC Pass 1: command "rc /fo CMakeFiles\cmTC_9c5dc.dir/manifest.res CMakeFiles\cmTC_9c5dc.dir/manifest.rc" failed (exit code 0) with the following output:
+The system cannot find the file specified
+ninja: build stopped: subcommand failed.
+
+
+
